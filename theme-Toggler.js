@@ -27,7 +27,7 @@ class ThemeToggler extends HTMLElement {
       this.querySelector("button").addEventListener("click", () => {
         // Get the current values of the theme colors
         const currentDarkColor = getComputedStyle(document.documentElement).getPropertyValue("--color-dark").trim();
-        const isNight = currentDarkColor === "255, 255, 255";
+        const isNight = currentDarkColor === "250, 255, 245";
   
         // Toggle the theme by changing the CSS variables
         document.documentElement.style.setProperty(

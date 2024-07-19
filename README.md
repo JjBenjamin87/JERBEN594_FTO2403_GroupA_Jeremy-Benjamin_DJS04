@@ -1,3 +1,7 @@
+Added link for DJS04 Loom Video: []
+
+
+
 # DJS04 Project Brief: Book Connect - Web Components
 
 Building upon your "Book Connect" project in DJS03, you will now dive into Web Components. This challenge will refine your skills in creating reusable, encapsulated, and interactive elements.

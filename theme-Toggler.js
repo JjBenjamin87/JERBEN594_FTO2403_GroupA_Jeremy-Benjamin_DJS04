@@ -17,7 +17,7 @@ class ThemeToggler extends HTMLElement {
             cursor: pointer;
             border-radius: 5px; /* Optional: add rounded corners */
             font-size: 1rem; /* Optional: improve readability */
-            transition: background-color 0.3s, color 0.3s; /* Optional: smooth transition */
+            transition: background-color 0.5s, color 0.5s; /* Optional: smooth transition */
           }
         </style>
         <button class="theme-toggler">Toggle Theme</button>
@@ -32,11 +32,11 @@ class ThemeToggler extends HTMLElement {
         // Toggle the theme by changing the CSS variables
         document.documentElement.style.setProperty(
           "--color-dark",
-          isNight ? "10, 10, 20" : "255, 255, 255"
+          isNight ? "15, 10, 20" : "250, 255, 245"
         );
         document.documentElement.style.setProperty(
           "--color-light",
-          isNight ? "255, 255, 255" : "10, 10, 20"
+          isNight ? "250, 255, 245" : "10, 12, 20"
         );
       });
     }
